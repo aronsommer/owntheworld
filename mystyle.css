@@ -1,0 +1,36 @@
+.btn-container {
+  top: 15px;
+  padding: 0;
+  margin:0;
+  height: 50px;
+  position: relative;
+  background: white;
+}
+.btn-center {
+  padding: 0;
+  margin:0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+.button {
+  font-family: 'Gluten', Helvetica, Arial, sans-serif;
+  font-size: 16pt;
+  background-color: rgb(32, 129, 226);;
+  border-radius: 12px;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+#unity-container.unity-desktop { top: 375px; }
+#unity-webgl-logo {display: none }
+#unity-build-title {display: none }
+#unity-fullscreen-button {display: none }
